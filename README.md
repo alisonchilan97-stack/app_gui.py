@@ -133,7 +133,12 @@ cargar_datos()
 # -----------------------------
 # Ejecutar programa
 
-/**************************************
+# -----------------------------
+ventana.mainloop() 
+
+
+
+//////**************************************
 La aplicación fue desarrollada utilizando la librería Tkinter de Python, la cual permite crear interfaces gráficas de usuario. El objetivo del programa es permitir que los usuarios ingresen información, visualizarla en una tabla y gestionar esos datos de manera sencilla.
 
 La interfaz cuenta con una ventana principal que incluye un título, un campo de texto para ingresar datos, botones para realizar acciones y una tabla donde se muestran los datos agregados. El usuario puede escribir información en el campo de texto y presionar el botón Agregar, lo que permite que el dato se muestre inmediatamente en la tabla.
@@ -143,5 +148,3 @@ También se incluye un botón Eliminar, que permite borrar un dato seleccionado 
 Además, el programa guarda automáticamente la información en un archivo externo, lo que permite que los datos permanezcan guardados incluso después de cerrar la aplicación. Cuando el programa se vuelve a abrir, los datos almacenados se cargan nuevamente y se muestran en la tabla.
 
 
-# -----------------------------
-ventana.mainloop()
